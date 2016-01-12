@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A43327231C29ADDC007E9290 /* SnowStory.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A43327221C29ADDC007E9290 /* SnowStory.storyboard */; };
+		A433275C1C29B8CF007E9290 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A433275B1C29B8CF007E9290 /* test.storyboard */; };
+		A493D8D91C18ACEA00FC6E9A /* SnowFlake.swift in Sources */ = {isa = PBXBuildFile; fileRef = A493D8D81C18ACEA00FC6E9A /* SnowFlake.swift */; };
+		A4B41CC01C1C974B00352D2A /* SnowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B41CBF1C1C974B00352D2A /* SnowApp.swift */; };
+		A4B546C01C1A1456009B6D2F /* 0d981a6f5ce5f8bb in Resources */ = {isa = PBXBuildFile; fileRef = A4B546BF1C1A1456009B6D2F /* 0d981a6f5ce5f8bb */; };
+		A4B546C21C1A1532009B6D2F /* SF.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B546C11C1A1532009B6D2F /* SF.png */; };
+		A4B722F91C2336E300B2652D /* SnowWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B722F81C2336E300B2652D /* SnowWindowController.swift */; };
 		A4C9B86F1C17710400FE20ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B86E1C17710400FE20ED /* AppDelegate.swift */; };
 		A4C9B8711C17710400FE20ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B8701C17710400FE20ED /* ViewController.swift */; };
 		A4C9B8731C17710400FE20ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C9B8721C17710400FE20ED /* Assets.xcassets */; };
 		A4C9B8761C17710400FE20ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C9B8741C17710400FE20ED /* Main.storyboard */; };
 		A4C9B8811C17710500FE20ED /* snowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B8801C17710500FE20ED /* snowTests.swift */; };
 		A4C9B88C1C17710500FE20ED /* snowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B88B1C17710500FE20ED /* snowUITests.swift */; };
+		A4C9B89A1C17728200FE20ED /* SnowWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C9B8991C17728200FE20ED /* SnowWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A43327221C29ADDC007E9290 /* SnowStory.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SnowStory.storyboard; sourceTree = "<group>"; };
+		A433275B1C29B8CF007E9290 /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = test.storyboard; sourceTree = "<group>"; };
+		A493D8D81C18ACEA00FC6E9A /* SnowFlake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowFlake.swift; sourceTree = "<group>"; };
+		A4B41CBF1C1C974B00352D2A /* SnowApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowApp.swift; sourceTree = "<group>"; };
+		A4B546BF1C1A1456009B6D2F /* 0d981a6f5ce5f8bb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "0d981a6f5ce5f8bb\U0004"; sourceTree = "<group>"; };
+		A4B546C11C1A1532009B6D2F /* SF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SF.png; sourceTree = "<group>"; };
+		A4B722F81C2336E300B2652D /* SnowWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowWindowController.swift; sourceTree = "<group>"; };
 		A4C9B86B1C17710400FE20ED /* snow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = snow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C9B86E1C17710400FE20ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4C9B8701C17710400FE20ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +60,7 @@
 		A4C9B8871C17710500FE20ED /* snowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = snowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4C9B88B1C17710500FE20ED /* snowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snowUITests.swift; sourceTree = "<group>"; };
 		A4C9B88D1C17710500FE20ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C9B8991C17728200FE20ED /* SnowWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnowWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,7 @@
 				A4C9B87F1C17710500FE20ED /* snowTests */,
 				A4C9B88A1C17710500FE20ED /* snowUITests */,
 				A4C9B86C1C17710400FE20ED /* Products */,
+				A4B546BF1C1A1456009B6D2F /* 0d981a6f5ce5f8bb */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +112,18 @@
 		A4C9B86D1C17710400FE20ED /* snow */ = {
 			isa = PBXGroup;
 			children = (
+				A4B546C11C1A1532009B6D2F /* SF.png */,
+				A4C9B8991C17728200FE20ED /* SnowWindow.swift */,
 				A4C9B86E1C17710400FE20ED /* AppDelegate.swift */,
 				A4C9B8701C17710400FE20ED /* ViewController.swift */,
 				A4C9B8721C17710400FE20ED /* Assets.xcassets */,
 				A4C9B8741C17710400FE20ED /* Main.storyboard */,
 				A4C9B8771C17710400FE20ED /* Info.plist */,
+				A493D8D81C18ACEA00FC6E9A /* SnowFlake.swift */,
+				A4B41CBF1C1C974B00352D2A /* SnowApp.swift */,
+				A4B722F81C2336E300B2652D /* SnowWindowController.swift */,
+				A43327221C29ADDC007E9290 /* SnowStory.storyboard */,
+				A433275B1C29B8CF007E9290 /* test.storyboard */,
 			);
 			path = snow;
 			sourceTree = "<group>";
@@ -190,6 +214,11 @@
 				TargetAttributes = {
 					A4C9B86A1C17710400FE20ED = {
 						CreatedOnToolsVersion = 7.1.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 					A4C9B87B1C17710500FE20ED = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -226,8 +255,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4B546C21C1A1532009B6D2F /* SF.png in Resources */,
 				A4C9B8731C17710400FE20ED /* Assets.xcassets in Resources */,
 				A4C9B8761C17710400FE20ED /* Main.storyboard in Resources */,
+				A43327231C29ADDC007E9290 /* SnowStory.storyboard in Resources */,
+				A433275C1C29B8CF007E9290 /* test.storyboard in Resources */,
+				A4B546C01C1A1456009B6D2F /* 0d981a6f5ce5f8bb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A493D8D91C18ACEA00FC6E9A /* SnowFlake.swift in Sources */,
 				A4C9B8711C17710400FE20ED /* ViewController.swift in Sources */,
+				A4B41CC01C1C974B00352D2A /* SnowApp.swift in Sources */,
 				A4C9B86F1C17710400FE20ED /* AppDelegate.swift in Sources */,
+				A4B722F91C2336E300B2652D /* SnowWindowController.swift in Sources */,
+				A4C9B89A1C17728200FE20ED /* SnowWindow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +512,7 @@
 				A4C9B8921C17710500FE20ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C9B8931C17710500FE20ED /* Build configuration list for PBXNativeTarget "snowTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +521,7 @@
 				A4C9B8951C17710500FE20ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4C9B8961C17710500FE20ED /* Build configuration list for PBXNativeTarget "snowUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +530,7 @@
 				A4C9B8981C17710500FE20ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

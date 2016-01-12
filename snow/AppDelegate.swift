@@ -12,15 +12,21 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
 
-
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        NSScreen.screens()?.forEach({ screen in
+            //if(screen !== NSScreen.mainScreen()) {
+                let story = NSStoryboard(name: "Main" ,bundle: NSBundle.mainBundle())
+                let windowc = story.instantiateInitialController()
+                windowc!.showWindow(self)
+                
+                print("another screen attached")
+           // }
+        })
     }
-
-    func applicationWillTerminate(aNotification: NSNotification) {
-        // Insert code here to tear down your application
+    
+    func applicationDidChangeScreenParameters(notification: NSNotification) {
+        
     }
-
-
 }
 
